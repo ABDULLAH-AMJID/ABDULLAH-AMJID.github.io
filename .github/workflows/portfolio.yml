@@ -1,0 +1,27 @@
+name: Portfolio
+
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'projects.json'
+      - 'build.py'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: Cards match projects.json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify index.html is up to date
+        run: python build.py --check
+
+      # If this step fails you edited the cards by hand, or you edited
+      # projects.json and forgot to run:  python build.py

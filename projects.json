@@ -1,0 +1,134 @@
+{
+  "projects": [
+    {
+      "name": "PhoneCam Pro",
+      "url": "https://github.com/ABDULLAH-AMJID/PhoneCam-Pro",
+      "flag": "Systems / C++",
+      "role": "Custom DirectShow driver · Windows kernel-adjacent",
+      "summary": "Turns an Android phone or iPhone into a <strong>real Windows webcam</strong> — one that Zoom, Teams, and Google Meet detect as physical hardware. No DroidCam, no OBS, no third-party drivers.",
+      "detail": "The core is a DirectShow filter written from scratch in C++ that registers itself as a system camera device and pulls frames from shared memory. A Python server receives the phone's camera stream over WiFi or USB tethering and writes into that shared buffer. Supports live quality switching from 480p to 1080p, remote front/back camera flip, and automatic reconnection on network drop.",
+      "tags": [
+        "C++",
+        "DirectShow",
+        "Win32 API",
+        "Python",
+        "WebSocket",
+        "Shared Memory IPC"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "C++",
+        "archived": false,
+        "updated": "2026-08-19"
+      }
+    },
+    {
+      "name": "SpaceMedic",
+      "url": "https://github.com/ABDULLAH-AMJID/SpaceMedic",
+      "flag": "Desktop / Safety-critical",
+      "role": "Offline Windows storage &amp; memory analyser · MIT licensed",
+      "summary": "Answers two questions: <strong>what is using my disk and memory</strong>, and <strong>what can I safely reclaim</strong>. Built for developers whose machines quietly fill up with <code>node_modules</code>, virtual environments, build outputs, package caches, and AI model downloads.",
+      "detail": "Designed safety-first: read-only until the user explicitly selects something, deletions route through the Recycle Bin, and it will never touch <code>Windows</code>, <code>System32</code>, <code>WinSxS</code>, or <code>pagefile.sys</code>. Ships with 29 regression tests, an eight-language localisation framework, and a validated community rule system that rejects absolute paths and directory traversal. No telemetry, no account, no network calls.",
+      "tags": [
+        "Python",
+        "Tkinter",
+        "Windows API",
+        "Regression Testing",
+        "i18n",
+        "MIT"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "Python",
+        "archived": false,
+        "updated": "2026-08-17"
+      }
+    },
+    {
+      "name": "EarBridge NEXUS",
+      "url": "https://github.com/ABDULLAH-AMJID/earbridge-nexus",
+      "flag": "Real-time audio",
+      "role": "Low-latency audio bridge over LAN",
+      "summary": "Most Bluetooth earbuds pair with only one device at a time. EarBridge streams <strong>laptop audio to your phone over WiFi</strong>, where a web app plays it through the earbuds already connected there — so you hear both devices at once, with no extra hardware.",
+      "detail": "Uses the A2DP music profile rather than the low-quality HFP call profile, and runs playback on an AudioWorklet so it survives OS thread suspension when the browser is backgrounded. Includes an adaptive jitter buffer that measures live network jitter and retunes buffer depth, RTT-based signal quality monitoring, and per-client isolated send queues so one slow device never stalls the others.",
+      "tags": [
+        "Python",
+        "Web Audio API",
+        "AudioWorklet",
+        "WebSocket",
+        "Jitter Buffering",
+        "Networking"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "HTML",
+        "archived": false,
+        "updated": "2026-04-08"
+      }
+    },
+    {
+      "name": "GitHub Project Publisher",
+      "url": "https://github.com/ABDULLAH-AMJID/GitHubProjectPublisher",
+      "flag": "Desktop / C#",
+      "role": "WPF application for safe repository publishing",
+      "summary": "A Windows desktop tool that <strong>publishes local projects to GitHub with validation built in</strong> — checking for secrets, oversized files, and missing metadata before anything reaches a public repository.",
+      "detail": "Structured as a proper .NET solution with a separate test project, CI workflow, installer build script, and dedicated security and validation documentation.",
+      "tags": [
+        "C#",
+        ".NET",
+        "WPF",
+        "MSBuild",
+        "GitHub Actions"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "C#",
+        "archived": false,
+        "updated": "2026-08-19"
+      }
+    },
+    {
+      "name": "Vortex",
+      "url": "https://github.com/ABDULLAH-AMJID/Vortex",
+      "flag": "Backend / DevOps",
+      "role": "Containerised media service",
+      "summary": "A self-hosted media-fetching service — <strong>FastAPI</strong> backend with a web UI, asynchronous job queue, per-job progress tracking, and playlist support. Deploys anywhere via Docker Compose.",
+      "detail": "",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "Async",
+        "REST"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "HTML",
+        "archived": false,
+        "updated": "2026-08-19"
+      }
+    },
+    {
+      "name": "Sharp Pixel",
+      "url": "https://github.com/ABDULLAH-AMJID/sharp-pixel-magic",
+      "flag": "Web / Mobile",
+      "role": "Image upscaler and enhancer",
+      "summary": "A cross-platform <strong>image upscaling and enhancement</strong> app — increases photo resolution and restores detail, with a React front end backed by Supabase and packaged for mobile through Capacitor.",
+      "detail": "",
+      "tags": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Supabase",
+        "Capacitor"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "TypeScript",
+        "archived": false,
+        "updated": "2026-08-19"
+      }
+    }
+  ]
+}
