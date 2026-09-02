@@ -141,7 +141,7 @@
         "C++"
       ],
       "_live": {
-        "stars": 0,
+        "stars": 1,
         "language": "C++",
         "archived": false,
         "updated": "2026-08-28"
@@ -233,6 +233,21 @@
         "language": "Python",
         "archived": false,
         "updated": "2026-08-19"
+      }
+    },
+    {
+      "name": "C_drive_cleanup",
+      "url": "https://github.com/ABDULLAH-AMJID/C_drive_cleanup",
+      "flag": "Open source",
+      "role": "Software project",
+      "summary": "Python project project published securely with Project Publisher.",
+      "detail": "",
+      "tags": [],
+      "_live": {
+        "stars": 0,
+        "language": null,
+        "archived": false,
+        "updated": "2026-09-02"
       }
     }
   ]
