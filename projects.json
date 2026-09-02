@@ -129,6 +129,111 @@
         "archived": false,
         "updated": "2026-08-19"
       }
+    },
+    {
+      "name": "NativeWall",
+      "url": "https://github.com/ABDULLAH-AMJID/NativeWall",
+      "flag": "Systems / C++",
+      "role": "C++ project",
+      "summary": "Software project project published securely with Project Publisher.",
+      "detail": "",
+      "tags": [
+        "C++"
+      ],
+      "_live": {
+        "stars": 0,
+        "language": "C++",
+        "archived": false,
+        "updated": "2026-08-28"
+      }
+    },
+    {
+      "name": "OmniCross",
+      "url": "https://github.com/ABDULLAH-AMJID/OmniCross",
+      "flag": "Systems / C++",
+      "role": "C++ project",
+      "summary": "Software project project published securely with Project Publisher.",
+      "detail": "",
+      "tags": [
+        "C++"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "C++",
+        "archived": false,
+        "updated": "2026-08-28"
+      }
+    },
+    {
+      "name": "image-compressor-pixel",
+      "url": "https://github.com/ABDULLAH-AMJID/image-compressor-pixel",
+      "flag": "Open source",
+      "role": "CSS project",
+      "summary": "Static website project published securely with Project Publisher.",
+      "detail": "",
+      "tags": [
+        "CSS"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "CSS",
+        "archived": false,
+        "updated": "2026-08-28"
+      }
+    },
+    {
+      "name": "WireShare",
+      "url": "https://github.com/ABDULLAH-AMJID/WireShare",
+      "flag": "Mobile / Android",
+      "role": "Kotlin project",
+      "summary": "Python project project published securely with Project Publisher.",
+      "detail": "",
+      "tags": [
+        "Kotlin"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "Kotlin",
+        "archived": false,
+        "updated": "2026-08-28"
+      }
+    },
+    {
+      "name": "ABDULLAH-AMJID",
+      "url": "https://github.com/ABDULLAH-AMJID/ABDULLAH-AMJID",
+      "flag": "Open source",
+      "role": "Software project",
+      "summary": "Profile README",
+      "detail": "",
+      "tags": [],
+      "_live": {
+        "stars": 1,
+        "language": null,
+        "archived": false,
+        "updated": "2026-08-19"
+      }
+    },
+    {
+      "name": "ytflow",
+      "url": "https://github.com/ABDULLAH-AMJID/ytflow",
+      "flag": "Tooling / Python",
+      "role": "Python project",
+      "summary": "Local YouTube downloader built with Flask and yt-dlp — quality selection, live progress, and playlist support.",
+      "detail": "",
+      "tags": [
+        "Python",
+        "Ffmpeg",
+        "Flask",
+        "Web App",
+        "Youtube Downloader",
+        "Yt Dlp"
+      ],
+      "_live": {
+        "stars": 1,
+        "language": "Python",
+        "archived": false,
+        "updated": "2026-08-19"
+      }
     }
   ]
 }
