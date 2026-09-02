@@ -1,27 +1,53 @@
-name: Portfolio
+name: Update Portfolio
 
 on:
-  push:
-    paths:
-      - 'index.html'
-      - 'projects.json'
-      - 'build.py'
-  pull_request:
+  schedule:
+    - cron: "17 * * * *"
+
   workflow_dispatch:
 
+  push:
+    paths:
+      - "sync_repos.py"
+      - "build.py"
+      - "projects.json"
+      - "index.html"
+      - ".github/workflows/portfolio.yml"
+
+permissions:
+  contents: write
+
 jobs:
-  verify:
-    name: Cards match projects.json
+  update:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Verify index.html is up to date
-        run: python build.py --check
+      - name: Discover repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python sync_repos.py
 
-      # If this step fails you edited the cards by hand, or you edited
-      # projects.json and forgot to run:  python build.py
+      - name: Generate project cards
+        run: python build.py
+
+      - name: Commit updated portfolio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add projects.json index.html
+
+          if git diff --cached --quiet; then
+            echo "No portfolio changes"
+          else
+            git commit -m "chore: sync public repositories"
+            git push
+          fi
