@@ -16,7 +16,7 @@
         "Shared Memory IPC"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "C++",
         "archived": false,
         "updated": "2026-08-19"
@@ -38,7 +38,7 @@
         "MIT"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "Python",
         "archived": false,
         "updated": "2026-08-17"
@@ -60,7 +60,7 @@
         "Networking"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "HTML",
         "archived": false,
         "updated": "2026-04-08"
@@ -81,7 +81,7 @@
         "GitHub Actions"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "C#",
         "archived": false,
         "updated": "2026-08-19"
@@ -102,7 +102,7 @@
         "REST"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "HTML",
         "archived": false,
         "updated": "2026-08-19"
@@ -124,7 +124,7 @@
         "Capacitor"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "TypeScript",
         "archived": false,
         "updated": "2026-08-19"
@@ -141,7 +141,7 @@
         "C++"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "C++",
         "archived": false,
         "updated": "2026-08-28"
@@ -158,7 +158,7 @@
         "C++"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "C++",
         "archived": false,
         "updated": "2026-08-28"
@@ -175,7 +175,7 @@
         "CSS"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "CSS",
         "archived": false,
         "updated": "2026-08-28"
@@ -192,7 +192,7 @@
         "Kotlin"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "Kotlin",
         "archived": false,
         "updated": "2026-08-28"
@@ -207,7 +207,7 @@
       "detail": "",
       "tags": [],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": null,
         "archived": false,
         "updated": "2026-08-19"
@@ -229,7 +229,7 @@
         "Yt Dlp"
       ],
       "_live": {
-        "stars": 1,
+        "stars": 2,
         "language": "Python",
         "archived": false,
         "updated": "2026-08-19"
@@ -244,7 +244,7 @@
       "detail": "",
       "tags": [],
       "_live": {
-        "stars": 0,
+        "stars": 1,
         "language": null,
         "archived": false,
         "updated": "2026-09-02"
