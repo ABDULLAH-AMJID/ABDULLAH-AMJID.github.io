@@ -257,10 +257,12 @@
       "role": "Software project",
       "summary": "windows and android full office suite",
       "detail": "",
-      "tags": [],
+      "tags": [
+        "Python"
+      ],
       "_live": {
         "stars": 0,
-        "language": null,
+        "language": "Python",
         "archived": false,
         "updated": "2026-10-23"
       }
