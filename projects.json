@@ -249,6 +249,21 @@
         "archived": false,
         "updated": "2026-09-02"
       }
+    },
+    {
+      "name": "MyOffice",
+      "url": "https://github.com/ABDULLAH-AMJID/MyOffice",
+      "flag": "Open source",
+      "role": "Software project",
+      "summary": "windows and android full office suite",
+      "detail": "",
+      "tags": [],
+      "_live": {
+        "stars": 0,
+        "language": null,
+        "archived": false,
+        "updated": "2026-10-23"
+      }
     }
   ]
 }
