@@ -274,12 +274,14 @@
       "role": "Software project",
       "summary": "Open-source project on GitHub.",
       "detail": "",
-      "tags": [],
+      "tags": [
+        "Blade"
+      ],
       "_live": {
         "stars": 0,
-        "language": null,
+        "language": "Blade",
         "archived": false,
-        "updated": "2026-11-11"
+        "updated": "2026-11-12"
       }
     }
   ]
