@@ -266,6 +266,21 @@
         "archived": false,
         "updated": "2026-11-07"
       }
+    },
+    {
+      "name": "School-Management-system",
+      "url": "https://github.com/ABDULLAH-AMJID/School-Management-system",
+      "flag": "Open source",
+      "role": "Software project",
+      "summary": "Open-source project on GitHub.",
+      "detail": "",
+      "tags": [],
+      "_live": {
+        "stars": 0,
+        "language": null,
+        "archived": false,
+        "updated": "2026-11-11"
+      }
     }
   ]
 }
