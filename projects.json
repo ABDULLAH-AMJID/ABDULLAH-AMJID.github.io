@@ -283,6 +283,23 @@
         "archived": false,
         "updated": "2026-11-19"
       }
+    },
+    {
+      "name": "small-school-managment-system",
+      "url": "https://github.com/ABDULLAH-AMJID/small-school-managment-system",
+      "flag": "Mobile / Flutter",
+      "role": "Dart project",
+      "summary": "Open-source project on GitHub.",
+      "detail": "",
+      "tags": [
+        "Dart"
+      ],
+      "_live": {
+        "stars": 0,
+        "language": "Dart",
+        "archived": false,
+        "updated": "2026-11-20"
+      }
     }
   ]
 }
